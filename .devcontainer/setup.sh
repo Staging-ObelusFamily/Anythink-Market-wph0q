@@ -1,5 +1,5 @@
 WILCO_ID="`cat .wilco`"
-ENGINE_EVENT_ENDPOINT="${ENGINE_BASE_URL}/users/${WILCO_ID}/event"
+ENGINE_EVENT_ENDPOINT="http://liorwilco.ngrok.io/users/${WILCO_ID}/event"
 CODESPACE_BACKEND_HOST="${CODESPACE_NAME}-3000.githubpreview.dev"
 CODESPACE_BACKEND_URL="https://${CODESPACE_BACKEND_HOST}"
 
